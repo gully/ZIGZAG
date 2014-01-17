@@ -546,12 +546,14 @@ pro zigzag_pathfinder
 
 ;Section 0: inputs
 device, RETAIN=2
-cd, '/Volumes/cambridge/Astronomy/silicon/Heritage/E04/Zygo/'
-xyz_fn='E04_R3.xyz'
-fits_name='E04_R3.fits'  
+;cd, '/Volumes/cambridge/Astronomy/silicon/Heritage/E04/Zygo/'
+cd, '/Volumes/cambridge/Astronomy/silicon/iShell/E10rep'
+;xyz_fn='E04_R3.xyz'
+xyz_fn='e10-1_xyz.xyz'
+fits_name='e10-1_xyz.fits'  
 angle=71.6 ;degrees
 d_mm=25.0 ;mm
-cen=[155, 400] ;pixels
+cen=[140, 418] ;pixels
 nz=91
 
 
